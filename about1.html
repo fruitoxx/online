@@ -1,82 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
   <title>fruitoxx</title>
 
-  <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
-
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
   <style>
-    .gallery-container {
-      border: 5px solid gray;
-      padding: 10px;
-    }
-
-    .video-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 10px;
-    }
-
-    .video-container video {
-      width: 100%;
-      height: 100%;
-      border: none; /* Remove the border */
-    }
-
     h1 {
-      padding-left: 110px;
+      padding-left: 140px;
+      font-family: cursive;
       font-weight: bolder;
-      padding-top: 10px;
     }
 
-    /* Media Query for iPhone 12 Pro */
-    @media only screen and (max-width: 1284px) {
-      .video-container {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      }
+    .about_section {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 
+    .img-box img {
+      width: 100%;
+      height: auto;
+      border: none; /* Remove border */
+    }
+
+    .img-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 767px) {
       h1 {
-        padding-left: 30px;
+        padding-left: 20px;
+      }
+
+      .img-box {
+        flex-direction: column;
       }
     }
+
+    /* Add more media queries as needed for different resolutions */
+
   </style>
 </head>
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
     <div class="brand_box">
       <a class="navbar-brand" href="index.html">
-        <span>
-         fruit process
-        </span>
+        <span>offers and menu</span>
       </a>
     </div>
-    <!-- end header section -->
   </div>
 
-  <!-- nav section -->
   <section class="nav_section">
     <div class="container">
       <div class="custom_nav2">
@@ -86,8 +74,8 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex  flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -111,84 +99,63 @@
     </div>
   </section>
 
-  <div class="gallery-container">
-    <h1>Gallery</h1>
-    <div class="video-container">
-      <!-- Your videos go here -->
-      <video controls>
-        <source src="images/whatsapp/video/e.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <video controls>
-        <source src="images/whatsapp/video/b.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <video controls>
-        <source src="images/whatsapp/video/c.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <video controls>
-        <source src="images/whatsapp/video/d.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <video controls>
-        <source src="images/whatsapp/video/a.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+  <section>
+    <div>
+      <h1>MENU</h1>
     </div>
-  </div>
-
-  
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="info_logo">
-        <h2>
-          fruitoxx
-        </h2>
-      </div>
-      <div class="info_contact">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="">
-              <img src="images/location.png" alt="">
-              <span>
-                Near Shastri nagar 
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="tel:+918851521026">
-              <img src="images/call.png" alt="">
-              <span>
-              Call:8851521026 
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="">
-              <img src="images/mail.png" alt="">
-              <span>
-                fruitoxx@gmail.com
-              </span>
-            </a>
+    <div>
+      <div>
+        <div class="col-md-12 px-0">
+          <div class="img-box">
+            <img src="images/whatsapp/m1.jpg" alt="">
+            <img src="images/whatsapp/m2.jpg" alt="">
+            <img src="images/whatsapp/offer1.jpeg" alt="">
+            <img src="images/whatsapp/replace.jpeg" alt="">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section ">
-    <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved 
-      
-    </p>
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="info_logo">
+        <h2>fruitoxx</h2>
+      </div>
+      <div class="info_contact">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="">
+              <img src="images/location.png" alt="">
+              <span>Near Shastri nagar</span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="tel:+918851521026">
+              <img src="images/call.png" alt="">
+              <span>Call:8851521026</span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="">
+              <img src="images/mail.png" alt="">
+              <span>fruitoxx@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="info_social">
+        <div><a href=""><img src="images/facebook-logo-button.png" alt=""></a></div>
+        <div><a href="https://twitter.com/fruitoxx1"><img src="images/twitter-logo-button.png" alt=""></a></div>
+        <div><a href=""><img src="images/linkedin.png" alt=""></a></div>
+        <div><a href="https://instagram.com/fruitoxx"><img src="images/instagram.png" alt=""></a></div>
+      </div>
+    </div>
   </section>
-  <!-- footer section -->
+
+  <section class="container-fluid footer_section">
+    <p>&copy; <span id="displayYear"></span> All Rights Reserved</p>
+  </section>
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>

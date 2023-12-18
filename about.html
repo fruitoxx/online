@@ -1,47 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
   <title>fruitoxx</title>
 
-  <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
-
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    h1 {
+      padding-left: 70px;
+      font-family: cursive;
+      font-weight: bolder;
+      text-align: center;
+    }
+
+    .about_section {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .img-box img {
+      width: 100%;
+      height: auto;
+    }
+
+    .img-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    @media (max-width: 767px) {
+      h1 {
+        padding-left: 20px;
+      }
+
+      .img-box {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+    }
+  </style>
 </head>
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
     <div class="brand_box">
       <a class="navbar-brand" href="index.html">
-        <span >
-         offers and menu
-        </span>
+        <span>offers and menu</span>
       </a>
     </div>
-    <!-- end header section -->
   </div>
-
-  <!-- nav section -->
 
   <section class="nav_section">
     <div class="container">
@@ -52,8 +71,8 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex  flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -69,12 +88,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
-                
               </ul>
-              
-             <!--<form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button> 
-              </form> --> 
             </div>
           </div>
         </nav>
@@ -82,140 +96,63 @@
     </div>
   </section>
 
-  
-
-  <!-- end nav section -->
-
-  <!-- about section -->
-  
-  <section class="about_section layout_padding">
-    <div class="heading_container">
-      <h1 style="padding-left: 140px; font-family: cursive; font-weight: bolder;">
-        MENU
-        </h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
+  <section>
+    <div >
+      <h1>MENU</h1>
+    </div>
+    <div  >
+      <div >
+        <div class="col-md-12 px-0">
           <div class="img-box">
             <img src="images/whatsapp/m1.jpg" alt="">
             <img src="images/whatsapp/m2.jpg" alt="">
             <img src="images/whatsapp/offer1.jpeg" alt="">
             <img src="images/whatsapp/replace.jpeg" alt="">
           </div>
-      </div>
-      
-        
-        <!-- <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <hr>
-              <h2>
-                About Our Fruit Shop
-              </h2>
-            </div>
-            <p>
-              There are many offers are being provided to the customer with very affordable prices!
-              check out our offers and menu
-            </p>
-            <a href="">
-              Read More
-            </a>
-          </div> -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- end about section -->
-
-  <!-- info section -->
-
   <section class="info_section layout_padding">
     <div class="container">
       <div class="info_logo">
-        <h2>
-          fruitoxx
-        </h2>
+        <h2>fruitoxx</h2>
       </div>
       <div class="info_contact">
         <div class="row">
           <div class="col-md-4">
             <a href="">
               <img src="images/location.png" alt="">
-              <span>
-                Near Shastri nagar 
-              </span>
+              <span>Near Shastri nagar</span>
             </a>
           </div>
           <div class="col-md-4">
             <a href="tel:+918851521026">
               <img src="images/call.png" alt="">
-              <span>
-               Call:8851521026 
-              </span>
+              <span>Call:8851521026</span>
             </a>
           </div>
           <div class="col-md-4">
             <a href="">
               <img src="images/mail.png" alt="">
-              <span>
-                fruitoxx@gmail.com
-              </span>
+              <span>fruitoxx@gmail.com</span>
             </a>
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
-              <button>
-                subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3"> -->
-          <div class="info_social">
-            <div>
-              <a href="">
-                <img src="images/facebook-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://twitter.com/fruitoxx1">
-                <img src="images/twitter-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://instagram.com/fruitoxx">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="info_social">
+        <div><a href=""><img src="images/facebook-logo-button.png" alt=""></a></div>
+        <div><a href="https://twitter.com/fruitoxx1"><img src="images/twitter-logo-button.png" alt=""></a></div>
+        <div><a href=""><img src="images/linkedin.png" alt=""></a></div>
+        <div><a href="https://instagram.com/fruitoxx"><img src="images/instagram.png" alt=""></a></div>
       </div>
-
     </div>
   </section>
 
-  <!-- end info section -->
-
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section ">
-    <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved 
-      
-    </p>
+  <section class="container-fluid footer_section">
+    <p>&copy; <span id="displayYear"></span> All Rights Reserved</p>
   </section>
-  <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>

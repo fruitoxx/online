@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>   fruitoxx</title>
+  <title>fruitoxx</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -36,12 +36,24 @@
     .video-container video {
       width: 100%;
       height: 100%;
+      border: none; /* Remove the border */
     }
 
     h1 {
       padding-left: 110px;
       font-weight: bolder;
       padding-top: 10px;
+    }
+
+    /* Media Query for iPhone 12 Pro */
+    @media only screen and (max-width: 1284px) {
+      .video-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      h1 {
+        padding-left: 30px;
+      }
     }
   </style>
 </head>
@@ -96,31 +108,29 @@
   </section>
  
   <div class="video-container">
-    <h1>Process 1</h1>
+ 
     <video controls>
       <source src="images/whatsapp/video/e.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  
-    <h1>Process 2</h1>
+ 
     <video controls>
       <source src="images/whatsapp/video/b.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   
-    <h1>Process 3</h1>
+     
     <video controls>
       <source src="images/whatsapp/video/c.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  
-    <h1>Process 4</h1>
+   
     <video controls>
       <source src="images/whatsapp/video/d.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   
-    <h1>Process 5</h1>
+    
     <video controls>
       <source src="images/whatsapp/video/a.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -163,48 +173,8 @@
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
-              <button>
-                subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3"> -->
-          <div class="info_social">
-            <div>
-              <a href="">
-                <img src="images/facebook-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://twitter.com/fruitoxx1">
-                <img src="images/twitter-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://instagram.com/fruitoxx">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
-
-  <!-- end info section -->
-
 
   <!-- footer section -->
   <section class="container-fluid footer_section ">
