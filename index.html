@@ -1,345 +1,1428 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>   fruitoxx</title>
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Friutoxx</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
 </head>
 
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <div class="brand_box">
-      <a class="navbar-brand" href="index.html">
-        <span>
-      <!-- <img src="images/img/Capture4.0.png" alt="" width="100%" style="border-radius: 10px;"> -->
-        <DIV style="padding-left: 120px;">#raw_is_real</DIV>
-        <DIV style="padding-left: 20px; font-size:30px;">#KARMKROFHALHUMDENGE!</DIV>
-    </span>
+<body id="top">
 
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Fruitoxx</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Near Shastri nagar 
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+918851521026" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+918851521026 </span>
       </a>
-    </div>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="img-box">
-              <img src="images/img/cp2 (1).jpg" alt="">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="img-box">
-              <img src="images/img/cp5 (1).jpg" alt="">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="img-box">
-              <img src="images/img/cp6 (1).jpg" alt="">
-            </div>
-          </div>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-    <!-- end slider section -->
+
+        <span class="span">fruitoxx@gmail.com</span>
+      </a>
+
+    </div>
   </div>
 
-  <!-- nav section -->
 
-  <section class="nav_section">
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
-      <div class="custom_nav2">
-        <nav class="navbar navbar-expand custom_nav-container ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex  flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">Menu & Offers </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="fruit.html">Our Fruit </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="testimonial.html">Process</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-               
-              </ul>
-            
-            </div>
-          </div>
-        </nav>
-      </div>
+      <a href="#" class="logo">
+        <img src="./assets/images/LOG.png" width="160" height="50" alt="Fruitoxx">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/LOG.png" width="160" height="50" alt="Fruitoxx">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Fruits</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Near Shastri nagar 
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:Fruitoxx@gmail.com" class="body-4 sidebar-link">Fruitoxx@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+918851521026" class="body-1 contact-number hover-underline">
+           +918851521026 
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="https://wa.me/+918851521026/?text=Hello%20there!" class="btn btn-secondary">
+        <span class="text text-1">Whatsapp us!</span>
+
+        <span class="text text-2" aria-hidden="true">Whatsapp us!</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
     </div>
-  </section>
+  </header>
 
-  <!-- end nav section -->
 
-  <!-- shop section -->
 
-  <section class="shop_section layout_padding">
-    <div class="container">
-      <div class="box">
-        <div class="detail-box">
-          <h2>
-       high quality a grade fruits
-          </h2>
-          <h4>
-            Cheaper than the local retailers and local vendors
-          </h4>
-        </div>
-        <div class="img-box">
-          <img src="images/whatsapp/logo.jpeg" alt="">
-        </div>
-        <div class="btn-box">
-          <p>Contact us by using below link</p>
-          <a href="https://wa.me/+918851521026/?text=Hello%20there!"> chat with us</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- end shop section -->
-  <h1 style="padding-left: 5%; font-family: cursive; font-weight: bolder;">
-    Our Team
-  </h1>
 
-  <div style="padding-left: 5%;">
-    <img src="images/whatsapp/ankit.jpeg" alt="" style="width: 100%; max-width: 600px; height: auto;">
-  </div>
+  <main>
+    <article>
 
-  <div class="box" style="margin: 30px 5%; display: flex; flex-direction: column; align-items: center;">
-    <h2 style="font-size: 24px; margin-bottom: 10px;">Sample video</h2>
-    <video controls autoplay style="width: 100%; max-width: 600px; height: auto; border: 2px solid #000; border-radius: 10px;">
-      <source src="images/whatsapp/video/b.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <!-- about section -->
+      <!-- 
+        - #HERO
+      -->
 
-  <section class="about_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/whatsapp/1.jpeg" alt="">
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <hr>
-              <h2>
-                About Our Fruit Shop
-              </h2>
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/images/12.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
-            <p> 
-              There are many offers are being provided to the customer with very affordable prices!
-              check out our offers and menu
+
+            <p class="label-2 section-subtitle slider-reveal">#raw_is_real<br>#KARMKROFHALHUMDENGE!</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              High quality <br>
+              A grade fruits 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Cheaper than the local retailers and local vendors
             </p>
-            <a href="about.html">
-              Read More
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
             </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/images/22.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">#raw_is_real<br>#KARMKROFHALHUMDENGE!</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              High quality <br>
+              A grade fruits 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Cheaper than the local retailers and local vendors
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/images/31.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">#raw_is_real<br>#KARMKROFHALHUMDENGE!</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              High quality <br>
+              A grade fruits 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Cheaper than the local retailers and local vendors
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="https://wa.me/+918851521026/?text=Hello%20there!" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Whatsapp us!</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">fuel your vitamins and minerals</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            
+            There are many offers are being provided to the customer with very affordable prices!
+            check out our offers and menu
+          
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/images/whatsapp/m1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Sliced fruits</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/images/whatsapp/m2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Rich in nutrients</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/images/whatsapp/offer1.jpeg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Raw fruits</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">ABOUT US</h2>
+
+            <p class="section-text">
+              Welcome to FRUITOXX. We bring tasty meals right to our members' doors. Plus, we've got a special diet menu to help with health goals. And don't miss out on our fresh fruits! Check out our menus and see our special deals for a great eating experience.
+            </p>
+
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+918851521026" class="body-1 contact-number hover-underline">+918851521026 </a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/images/whatsapp/ankit.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/images/whatsapp/replace.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/images/whatsapp/1.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Special Offer</p>
+
+            <h2 class="headline-1 section-title">3-days trial starting just at  ₹149/</h2>
+
+            <p class="section-text">
+              Welcome to FRUITOXX, We deliver meals exclusively to our members, complemented by our specialized diet menu. With an in-house gym and a commitment to quality, we also offer the freshest fruits. Explore our menus and exclusive offers for a premium  experience.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3"> </del>
+
+              <span class="span body-1">Just at ₹149/-</span>
+            </div>
+
+            <a href="https://wa.me/+918851521026/?text=Hello%20there!" class="btn btn-primary">
+              <span class="text text-1">Try Now</span>
+
+              <span class="text text-2" aria-hidden="true">Whatsapp us!</span>
+            </a>
+
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- end about section -->
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
 
-  <!-- fruit section -->
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
 
-  <section class="fruit_section layout_padding">
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special selection</p>
+
+          <h2 class="headline-1 section-title text-center">SHAKES & DRINKS</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/31.jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">BANANA SHAKE</a>
+                    </h3>
+
+                    <span class="badge label-1">High CALORIE</span>
+
+                    <span class="span title-2">₹49/-(300ml)</span>
+                    <span class="span title-2">₹79/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A basic banana shake requires ripe bananas, milk, sugar, and vanilla extract. Additional ingredients like ice cubes or nuts can be added for variation.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/32.jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">BANANA+CHEEKU SHAKE</a>
+                    </h3>
+                    <span class="badge label-1">High CALORIE</span>
+                    <span class="span title-2">₹49/-(300ml)</span>
+                    <span class="span title-2">₹79/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For a banana and cheeku shake, combine ripe bananas, cheeku pulp, milk, and a touch of sugar or honey in a blender. Blend until smooth, and enjoy the creamy, fruity goodness!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/38 (1).jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">BADAM RAGDA DRINK</a>
+                    </h3>
+                    <span class="badge label-1">SPECIAL</span>
+                    <span class="span title-2">₹69/-(300ml)</span>
+                    <span class="span title-2">₹109/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For a badam (almond) shake,blend them with milk, sugar, and a pinch of cardamom. Serve chilled for a refreshing and nutritious treat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/40 (1).png" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">MUNAKKA DRINK</a>
+                    </h3>
+
+                    <span class="badge label-1">SPECIAL</span>
+
+                    <span class="span title-2">₹69/-(300ml)</span>
+                    <span class="span title-2">₹109/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Soak munakkas overnight, blend with water, honey, and lemon juice, then strain for a refreshing drink..
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/33.jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">KEEWI SMOOTHIE</a>
+                    </h3>
+
+                    <span class="badge label-1">WEIGHT LOSS</span>
+
+                    <span class="span title-2">₹59/-(250ml)</span>
+                    <span class="span title-2">₹69/-(300ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For a kiwi smoothie, blend ripe kiwi fruit with yogurt, a splash of orange juice, and a drizzle of honey until smooth. Enjoy the tropical and tangy flavors!.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/str (1).jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">STRAWBERRY SMOOTHIE</a>
+                    </h3>
+
+                    <span class="badge label-1">WEIGHT LOSS</span>
+
+                    <span class="span title-2">₹59/-(250ml)</span>
+                    <span class="span title-2">₹69/-(300ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For a strawberry smoothie, blend fresh strawberries with yogurt, a touch of milk, and a teaspoon of honey until creamy and smooth. Indulge in the delightful sweetness of strawberries!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/36.jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">MOSAMBI JUICE</a>
+                    </h3>
+
+                    <span class="badge label-1">CITRUS JUICES</span>
+
+                    <span class="span title-2">₹39/-(300ml)</span>
+                    <span class="span title-2">₹59/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For a Mosambi (sweet lime) juice, extract the juice from fresh Mosambi fruits, mix with a pinch of salt and sugar, and dilute with water as desired. Serve chilled for a refreshing citrus drink.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes/36.jpg" width="100" height="100" loading="lazy" alt=" "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">TANGERINE/KEENU JUICE</a>
+                    </h3>
+
+                    <span class="badge label-1">CITRUS JUICES</span>
+
+                    <span class="span title-2">₹29/-(300ml)</span>
+                    <span class="span title-2">₹49/-(500ml)</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    For tangerine juice, squeeze fresh tangerines and enjoy the tangy, sweet flavor. Optionally, chill the juice or mix with a splash of sparkling water for a fizzy twist.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+          <p class="menu-text text-center">
+           Timing <span class="span">7:00 am</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Gallary</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/images/whatsapp/show1.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">Sliced</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/images/whatsapp/show2.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">Raw</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/images/whatsapp/show3.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">Nutritious</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Rich in nutrients</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/images/22.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            मैं FRUITOXX बारे बतान चाहूं कि ओ वैसी सेवा देंदे, जो फिटनेस या दंगल करण वाले ने, उन्हें ताजगीपूर्वक और पौष्टिक फल भेजे।
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/oardefault.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Ankit Baiyanpuria</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+918851521026 " class="link">+91 8851521026 </a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">BUY the Membership</span>
+
+                <span class="text text-2" aria-hidden="true">BUY IT NOW</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+918851521026" class="body-1 contact-number hover-underline">+918851521026</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Near Shastri nagar, <br>
+                Delhi, India
+              </address>
+
+              <p class="contact-label">Afternoon</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">Evening</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strength</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">Hygienic food ensures safety and purity in every bite, prioritizing our well-being.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                <p class="label-1 card-text">It's a sanctuary that promotes health, happiness, and harmony.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Nutritious fruits</h3>
+
+                <p class="label-1 card-text">Nutritious fruits are nature's treasures that promote overall health.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Join us & ENJOY!</h3>
+
+                <p class="label-1 card-text"> Join us, and let the journey of enjoyment begin!</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
     <div class="container">
-      <div class="heading_container">
-        <hr>
-        <h2>
-          Fresh Fruit
-        </h2>
-      </div>
-    </div>
-    <div class="container-fluid">
 
-      <div class="fruit_container">
-        <div class="box">
-          <img src="images/f-1.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Orange
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/f-2.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Blueberry
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/f-3.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Banana
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/f-4.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Apple
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/f-5.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Mango
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/f-6.jpg" alt="">
-          <div class="link_box">
-            <h5>
-              Strawberry
-            </h5>
-            <a href="https://wa.me/+918851521026/?text=Hello%20there!">  Buy Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="footer-top grid-list">
 
-   
- 
+        <div class="footer-brand has-before has-after">
 
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="info_logo">
-        <h2>
-          fruitoxx
-        </h2>
-      </div>
-      <div class="info_contact">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="">
-              <img src="images/location.png" alt="">
-              <span>
-                Near Shastri nagar 
-              </span>
-            </a>
+          <a href="#" class="logo">
+            <img src="./assets/images/LOG.png" width="160" height="50" loading="lazy" alt="fruitoxx">
+          </a>
+
+          <address class="body-4">
+            Near Shastri nagar, Delhi, India
+          </address>
+
+          <a href="mailto:Fruitoxx@gmail.com" class="body-4 contact-link">Fruitoxx@gmail.com</a>
+
+          <a href="tel:+918851521026" class="body-4 contact-link">Booking Request : +918851521026</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
           </div>
-          <div class="col-md-4">
-            <a href="tel:+918851521026">
-              <img src="images/call.png" alt="">
-              <span>
-               Call:8851521026 
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="">
-              <img src="images/mail.png" alt="">
-              <span>
-                fruitoxx@gmail.com
-              </span>
-            </a>
-          </div>
+
+          <p class="title-1">Subscribe us & Get 15% Off on monthly subscription </p>
+
+          <p class="label-1">
+           TRY NOW<span class="span">  </span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
         </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+        
+          <li>
+            <a href="https://instagram.com/fruitoxx" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/fruitoxx1" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+        </ul>
+
       </div>
-      
-          <div class="info_social">
-            <div>
-              <a href="">
-                <img src="images/facebook-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://twitter.com/fruitoxx1">
-                <img src="images/twitter-logo-button.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-            </div>
-            <div>
-              <a href="https://instagram.com/fruitoxx">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Fruitoxx. All Rights Reserved 
+        </p>
+
       </div>
 
     </div>
-  </section>
-
-  <!-- end info section -->
+  </footer>
 
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section ">
-    <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved 
-      
-    </p>
-  </section>
-  <!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
