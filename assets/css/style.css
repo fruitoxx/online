@@ -815,6 +815,7 @@ body.nav-active { overflow: hidden; }
   pointer-events: none;
   user-select: none;
   z-index: -1;
+  opacity: 0.4;
 }
 
 .hero .slider-item.active .slider-bg {
